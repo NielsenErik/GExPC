@@ -1,0 +1,26 @@
+{
+    "mlflow": null,
+    "experiment": "crack_segmentation",
+    "algorithm": "unet",
+    
+
+    "data_path": "data/kaggle/crack_segmentation_dataset/train",
+    "test_path": "data/kaggle/crack_segmentation_dataset/test",
+    "save_path": "models/",
+    "model_name": "unet-wbce",
+    "validation_split": 0.2,
+
+    "epochs": 10,
+    "batch_size": 16,
+    "sample_size": 500,
+    "resize_size": [128, 128],
+    "learning_rate": 0.001,
+    "threshold": 0.2,
+    "input_channels": 3,
+    "n_classes": 1,
+    "seed": 4,
+
+    "execution_mode": "train"
+    
+
+}

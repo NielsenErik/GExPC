@@ -1,0 +1,8 @@
+data/*
+.venv/
+mlruns/
+models/
+logs/old/
+nnunet_data/
+logs/
+poster/

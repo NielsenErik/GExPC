@@ -1,0 +1,44 @@
+{
+    "mlflow": null,
+    "experiment": "crack_segmentation",
+    "algorithm": "pcnet_ge",
+    "device": "cpu",
+    "n_cpus": 10,
+
+    "data_path": "data/kaggle/crack_segmentation_dataset/train",
+    "test_path": "data/kaggle/crack_segmentation_dataset/test",
+    "save_path": "models/",
+    "validation_split": 0.2,
+
+    "feature_extractor": "cv_modules",
+
+    "epochs": 20,
+    "batch_size": 16,
+    "sample_size": 500,
+    "resize_size": [
+        256,
+        256
+    ],
+    "input_channels": 3,
+    "n_classes": 2,
+    "max_depth": 5,
+    "max_branching": 3,
+    "seed": 90,
+    "filter_sizes": [15, 21],
+    "n_cv_modules": 16,
+    "n_filters": 4,
+
+    "ge":{
+        "generations": 10,
+        "pop_size": 20,
+        "genome_len": 96,
+        "crossover_rate": 0.9,
+        "mutation_rate": 0.05,
+        "elite_k": 2,
+        "train_split": 0.1
+    },
+
+    "execution_mode": "train"
+    
+
+}

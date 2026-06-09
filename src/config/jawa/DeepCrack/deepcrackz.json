@@ -1,0 +1,22 @@
+{
+    "mlflow": null,
+    "experiment": "jawa_DeepCrack",
+    "algorithm": "deepcrackz",
+    "data_path": "data/crackseg9k_split/DeepCrack/train",
+    "test_path": "data/crackseg9k_split/DeepCrack/test",
+    "save_path": "models/",
+    "model_name": "deepcrackz",
+    "validation_split": 0.2,
+    "epochs": 40,
+    "batch_size": 8,
+    "resize_size": [
+        256,
+        256
+    ],
+    "learning_rate": 0.001,
+    "threshold": 0.2,
+    "input_channels": 3,
+    "n_classes": 1,
+    "seed": 4,
+    "execution_mode": "train"
+}

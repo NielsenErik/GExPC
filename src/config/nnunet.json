@@ -1,0 +1,23 @@
+{
+    "algorithm": "nnunet",
+  
+    "data_path": "data/crackseg9k_split/AEL/train",
+    "test_path": "data/crackseg9k_split/AEL/test",
+    "sample_size": 0.5,
+    "resize_size": [256, 256],
+    "seed": 4,
+    "execution_mode": "train",
+  
+    "nnUNet_raw": "/work/nnunet/nnUNet_raw",
+    "nnUNet_preprocessed": "/work/nnunet/nnUNet_preprocessed",
+    "nnUNet_results": "/work/nnunet/nnUNet_results",
+  
+    "nnunet_dataset_id": 777,
+    "nnunet_dataset_name": "CracksAEL",
+    "nnunet_config": "2d",
+    "nnunet_folds": [0],
+    "nnunet_num_gpus": 1,
+    "nnunet_trainer": "nnUNetTrainer",
+    "nnunet_plans": "nnUNetPlans"
+  }
+  

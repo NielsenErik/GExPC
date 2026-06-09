@@ -1,0 +1,27 @@
+{
+    "mlflow": null,
+    "experiment": "crack_segmentation",
+    "algorithm": "convae",
+    "device": "cuda",
+
+    "data_path": "data/kaggle/crack_segmentation_dataset/train",
+    "test_path": "data/kaggle/crack_segmentation_dataset/test",
+    "save_path": "models/",
+    "validation_split": 0.2,
+
+    "epochs": 50,
+    "batch_size": 16,
+    "sample_size": 3000,
+    "test_size": 500,
+    "resize_size": [128, 128],
+    "input_channels": 3,
+    "n_classes": 1,
+    "hidden_channels": [128,64],
+    "learning_rate": 0.001,
+    "threshold": 0.4,
+    "seed": 4,
+
+    "execution_mode": "train"
+    
+
+}

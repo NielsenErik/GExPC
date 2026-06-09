@@ -1,0 +1,33 @@
+{
+    "mlflow": null,
+    "experiment": "pcnet_ge",
+    "algorithm": "pcnet_ge",
+    "device": "cpu",
+    "n_cpus": 20,
+    "data_path": "data/CrackSeg9k/train",
+    "test_path": "data/CrackSeg9k/test",
+    "save_path": "models/",
+    "validation_split": 0.2,
+    "preprocessing": false,
+    "sample_size": 0.5,
+    "epochs": 80,
+    "batch_size": 32,
+    "resize_size": [
+        256,
+        256
+    ],
+    "n_classes": 1,
+    "max_depth": 3,
+    "max_branching": 3,
+    "seed": 90,
+    "ge": {
+        "generations": 10,
+        "pop_size": 20,
+        "genome_len": 96,
+        "crossover_rate": 0.9,
+        "mutation_rate": 0.05,
+        "elite_k": 2,
+        "train_split": 0.2
+    },
+    "execution_mode": "train"
+}

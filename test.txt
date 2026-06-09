@@ -1,0 +1,6 @@
+Mo = 79.1−0.2l−0.5no−3.4nnao−4.5nnaoc (2.1)
+where:
+• l is the size of the formula (i.e. sum of constants, variables and operations)
+• no is the number of operations
+• nnao is the number of non-arithmetical operations
+• nnaoc is the number of consecutive compositions of non-arithmetical operations.

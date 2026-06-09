@@ -1,0 +1,22 @@
+{
+    "mlflow": null,
+    "experiment": "jawa_CrackSeg9k",
+    "algorithm": "unet",
+    "data_path": "data/CrackSeg9k/train",
+    "test_path": "data/CrackSeg9k/test",
+    "save_path": "models/",
+    "model_name": "unet",
+    "validation_split": 0.2,
+    "epochs": 40,
+    "batch_size": 8,
+    "resize_size": [
+        256,
+        256
+    ],
+    "learning_rate": 0.001,
+    "threshold": 0.2,
+    "input_channels": 3,
+    "n_classes": 1,
+    "seed": 4,
+    "execution_mode": "train"
+}
